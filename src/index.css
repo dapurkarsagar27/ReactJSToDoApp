@@ -1,0 +1,107 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.main_app{
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(25, 119, 173);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.todo_app{
+  width: 25%;
+  height: 80vh;
+  background-color: rgb(214, 236, 255);
+}
+
+.todo_app h1{
+  text-align: center;
+  margin: 15px 0;
+  background-color: rgb(134, 178, 204);
+  color: white;
+  text-shadow: 1px 1px 2px rgb(1, 1, 44);
+}
+
+.todo_app input{
+  text-align: center;
+  padding: 6px 15px;
+  margin: 0 8px;
+  font-size: 18px;
+  outline: none;
+  border: transparent;
+  border-bottom: 3px solid rgb(134, 178, 204);
+  background-color: rgb(214, 236, 255);
+}
+
+button{
+  width: 40px;
+  height: 40px;
+  font-size: 18px;
+  border-radius: 50px;
+  border: transparent;
+  background-color: rgb(134, 178, 204);
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: rgb(52, 173, 52);
+  transform: scale(1.08 , 1.08);
+}
+
+ul{
+  list-style-type: none;
+  padding: 30px 0;
+  font-size: 18px;
+  font-weight: 900;
+}
+
+.addList{
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  text-align: center;
+}
+
+.addList .fa{
+  width: 25px;
+  height: 25px;
+  margin: 5px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: transparent;
+  border-radius: 50px;
+  background-color: rgb(134, 178, 204);
+  color: white;
+}
+
+.addList .fa:hover{
+  background-color: rgb(226, 28, 28);
+  cursor: pointer;
+}
+
+.mainUI{
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(70, 207, 70);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.todobox{
+  width: 25%;
+  border: 1px solid black;
+  padding: 10px;
+  background-color: aliceblue;
+}
